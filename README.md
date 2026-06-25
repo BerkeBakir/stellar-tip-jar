@@ -9,6 +9,8 @@ Built for the **Stellar Journey to Mastery — Yellow Belt** level: multi-wallet
 integration, a deployed Soroban contract called from the frontend, contract reads/writes,
 real-time event listening, and visible transaction status.
 
+🔗 **Live demo:** https://stellar-tip-jar-seven.vercel.app
+
 > **Network:** Stellar **Testnet** only. No real funds are involved.
 
 ---
