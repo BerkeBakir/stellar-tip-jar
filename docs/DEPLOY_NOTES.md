@@ -18,4 +18,6 @@
 - Deploy tx hash: `590ce828878b23e36d257db6ca923a6e9094fff29fdfdaf874ae6a7dc0fe2e5c`
 - Explorer: https://stellar.expert/explorer/testnet/contract/CALSKUBIYK5SMXU4WMQHRAMYRQLWUTVMF4FWIJC44SXTX5XCJPROQKTP
 - Smoke test: get_total 0->100, donate emitted tip event (topics [tip,donor], data [i128,string]), get_leaderboard returned [[G...,100]]
-- Sample donate tx hash: _(filled after Task 15)_
+- Sample donate (contract call) tx hash: `62400cf871ab1537a883dfcf6ca86bf14080c01e517e6ff643629956e701075c`
+- Verify: https://stellar.expert/explorer/testnet/tx/62400cf871ab1537a883dfcf6ca86bf14080c01e517e6ff643629956e701075c
+- E2E screenshots in public/screenshots/: wallet-options (StellarWalletsKit multi-wallet modal), leaderboard + activity-feed (live from on-chain tip events).
