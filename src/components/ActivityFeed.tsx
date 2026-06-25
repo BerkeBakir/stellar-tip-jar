@@ -17,7 +17,7 @@ export default function ActivityFeed() {
             <li key={`${e.txHash}-${e.ledger}-${e.donor}`} className="text-sm border-b border-white/10 pb-2">
               <span className="font-mono">{truncateAddress(e.donor)}</span>{' '}
               tipped <span className="font-semibold">{formatAmount(e.amount)}</span>
-              <div className="opacity-70">"{e.message}"</div>
+              <div className="opacity-70">&ldquo;{e.message}&rdquo;</div>
             </li>
           ))}
         </ul>
