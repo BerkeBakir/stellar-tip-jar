@@ -33,7 +33,8 @@ impl TipJar {
         // Per-donor running total; track distinct donors on first tip.
         let donor_key = DataKey::DonorTotal(donor.clone());
         let prev: i128 = storage.get(&donor_key).unwrap_or(0);
-        if prev == 0 {
+        let is_new = !storage.has(&donor_key);
+        if is_new {
             let mut donors: Vec<Address> =
                 storage.get(&DataKey::Donors).unwrap_or(Vec::new(&env));
             donors.push_back(donor.clone());
