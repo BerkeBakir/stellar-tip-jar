@@ -14,6 +14,8 @@
 - Funded via Friendbot.
 
 ## Contract
-- Contract ID: _(filled after Task 3 deploy)_
-- Deploy tx hash: _(filled after Task 3)_
+- Contract ID: `CALSKUBIYK5SMXU4WMQHRAMYRQLWUTVMF4FWIJC44SXTX5XCJPROQKTP`
+- Deploy tx hash: `590ce828878b23e36d257db6ca923a6e9094fff29fdfdaf874ae6a7dc0fe2e5c`
+- Explorer: https://stellar.expert/explorer/testnet/contract/CALSKUBIYK5SMXU4WMQHRAMYRQLWUTVMF4FWIJC44SXTX5XCJPROQKTP
+- Smoke test: get_total 0->100, donate emitted tip event (topics [tip,donor], data [i128,string]), get_leaderboard returned [[G...,100]]
 - Sample donate tx hash: _(filled after Task 15)_
